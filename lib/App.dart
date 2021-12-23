@@ -26,6 +26,9 @@ class _AppState extends State<App> {
         builder: (context, settingsState) => BlocBuilder<ThemeBloc, ThemeState>(
           builder: (context, themeState) {
             if (themeState is ThemeLoaded && settingsState is SettingsLoaded) {
+              SystemChrome.setPreferredOrientations([
+                DeviceOrientation.portraitUp,
+              ]);
               return MaterialApp(
                 darkTheme: ThemeManager.buildTheme(Brightness.dark, themeState.colorScheme, highContrast: themeState.highContrast),
                 theme: ThemeManager.buildTheme(Brightness.light, themeState.colorScheme),
