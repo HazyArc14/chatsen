@@ -1,7 +1,7 @@
 <p align="middle">
 <img align="middle" height="96" src="assets/ayyybubu/forsenShrimp/original.png">
 <p>
-<h1 align="middle">Chatsen</h1>
+<h1 align="middle">Chatsen-Mod</h1>
 
 <p align="middle" float="left">
   <a href="https://chatsen.app/discord"><img src="https://img.shields.io/discord/758710852756570153.svg?label=&logo=discord&logoColor=ffffff&color=5865F2&labelColor=5C5C5C"></a>
